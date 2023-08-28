@@ -1,0 +1,11 @@
+const fighters = ["scorpion","cage","sonya","fujin"];
+const ages = ["10","20","30","40"];
+
+console.log(fighters,ages);
+//Terminal: [ 'scorpion', 'cage', 'sonya', 'fujin' ] [ '10', '20', '30', '40' ]
+
+
+module.exports ={
+    fighters:fighters,
+    ages:ages
+};
